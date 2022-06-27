@@ -16,4 +16,7 @@ export default function GitInit() {
   // Com o $ git add -A adiciona todos os arquivos
   // $ git status| Mostra os arquivos que tiveram mudanças.
   // $ git commit -m 'Descrição'| Irá fazer o commit do código adicionado com uma mensagem.
+
+  // $ git remote add origin https://site.git
+  // $ git push -u origin main
 }
