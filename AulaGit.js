@@ -19,4 +19,9 @@ export default function GitInit() {
 
   // $ git remote add origin https://site.git
   // $ git push -u origin main
+
+  /* Branching */
+  // Branch|Uma das principais vantagens do git é a possibilidade de criarmos 'ramificações'. Assim podemos trabalhar em funcionalidades adicionais para um projeto, sem modificarmos o 'ramificação principal, o master.
+  // $ git branch nomebranch| Toda vez que formos adicionar uma nova funcionalidade, devemos iniciar criando um novo branch ao invés de fazermos alterações direto no master. O que for modificado no branch não afetara o master.
+  // $ git checkout nomebranch| Ira mudar de branch. Podemos usar o atalho $ git checkout -b novobranch, assim ele cria e muda de branch ao mesmo tempo.
 }
